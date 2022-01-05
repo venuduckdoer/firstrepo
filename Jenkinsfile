@@ -7,6 +7,10 @@ node {
         
         echo "building source code..."
     }
+    stage("unit test"){
+        
+        echo "starting unit test..."
+    }
     stage("deploy"){
         
         echo "deploying packages..."
